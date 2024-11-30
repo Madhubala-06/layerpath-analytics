@@ -886,7 +886,8 @@ button {
 
     display: flex;
     text-align: center;
-
+    justify-content: center;
+    gap: 10px;
     text-decoration: none;
     color: #3B82F6;
     font-size: 12px;
@@ -1163,6 +1164,18 @@ button {
     font-size: 14px;
 }
 
+.show-more {
+    border: 1px solid transparent;
+    padding: 8px 8px;
+    border-radius: 1.5rem;
+    padding :auto;
+  
+  }
+  
+  .show-more:hover {
+    border-color: #1d1f22;
+  }
+  
 
 
 [class^="details-row"] {
@@ -1172,6 +1185,7 @@ button {
 [class^="details-row"].active {
     display: table-row;
 }
+
 .details-icon {
     transition: transform 0.3s ease;
 }
@@ -1179,6 +1193,8 @@ button {
 .details-icon.flipped {
     transform: rotate(180deg);
 }
+
+
 
 
 
@@ -1499,23 +1515,23 @@ button {
     }
 
 
-    #sidebar-toggle:checked + .hamburger {
+    #sidebar-toggle:checked+.hamburger {
         display: none;
     }
-    
-    #sidebar-toggle:checked + .hamburger + .close-btn {
+
+    #sidebar-toggle:checked+.hamburger+.close-btn {
         display: block;
     }
-    
 
 
-    #sidebar-toggle:checked + .hamburger + .close-btn + .sidebar {
-        transform: translateX(0px); 
+
+    #sidebar-toggle:checked+.hamburger+.close-btn+.sidebar {
+        transform: translateX(0px);
 
     }
 
 
 
-   
+
 
 }
