@@ -27,7 +27,7 @@ Layerpath Analytics provides a user-friendly interface for managing and tracking
 
 ---
 
-### Screen 5: Profile and User Info
+### Screen 5: Profile and User Info with Analytics
 ![Screen 5](https://github.com/user-attachments/assets/b6ce0f8d-6638-4ba3-998b-4b1b296f3e80)
 
 ---
