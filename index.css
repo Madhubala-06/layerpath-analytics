@@ -23,8 +23,6 @@ body {
     line-height: 1.5;
 }
 
-
-/* Sidebar Styles */
 .sidebar {
     width: 250px;
     height: 100vh;
@@ -46,9 +44,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-color: #10b981;
-    /* Color of the thumb */
     border-radius: 10px;
-    /* Round the thumb */
 }
 
 
@@ -212,11 +208,7 @@ body {
         radial-gradient(67.77% 91.45% at 88.39% 23.19%, rgba(132, 143, 154, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
     position: relative;
     margin-top: 30px;
-
-
-
 }
-
 
 
 .contact-sales {
@@ -260,10 +252,7 @@ body {
 }
 
 
-
-
 .rainbow {
-
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -272,14 +261,11 @@ body {
 
 
 .baloon {
-
     position: absolute;
-
     right: 0px;
     bottom: 0px;
     border-radius: 10px;
 }
-
 
 
 .profile {
@@ -342,7 +328,6 @@ body {
     gap: 12px;
     padding: 14px 0;
     background: var(--card-bg);
-    ;
     margin-bottom: 7px;
     padding-left: 15px;
     border-radius: 7px;
@@ -370,8 +355,6 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
-
-
 
 
 .progress-list {
@@ -409,9 +392,6 @@ body {
     background-color: transparent;
 }
 
-
-
-/* Base header styles */
 .top-header {
     width: 100%;
     height: 80px;
@@ -423,12 +403,6 @@ body {
     align-items: center;
 }
 
-/* Responsive header layout for small screens */
-/* Responsive header layout for small screens */
-
-
-
-/* Button and icon styles */
 .header-actions {
     display: flex;
     align-items: center;
@@ -447,7 +421,6 @@ button {
     background: transparent;
 }
 
-/* Specific button styles */
 .upgrade-btn,
 .new-project-btn {
     border-radius: 4px;
@@ -463,19 +436,14 @@ button {
 
 .upgrade-btn:hover {
     background-color: #FFB545;
-    /* Hover background color */
     border-color: #ffbe5c99;
-    /* Hover border color */
-    border-width: 2px;
-    /* Border width */
+    border-width: 1px;
     border-style: solid;
-    /* Border style */
     box-shadow: inset 0px 4px 8px 0px rgba(217, 136, 15, 1);
-    /* Hover shadow */
+
 }
 
 
-/* Install Button Styles */
 .install-btn {
     display: flex;
     align-items: center;
@@ -483,10 +451,8 @@ button {
     background-color: #26292D;
     border-radius: 1.5rem;
     font-size: 0.875rem;
-    /* font-weight: 600; */
     cursor: pointer;
     transition: background 0.3s ease, box-shadow 0.3s ease;
-    /* Smooth transitions */
 }
 
 .install-btn:hover {
@@ -506,16 +472,11 @@ button {
 }
 
 
-
-
-
-
 .new-project-btn {
     background-color: #199F86;
     padding: 6px 12px;
 }
 
-/* Icon styles */
 .add-icon {
     width: 24px;
     height: 24px;
@@ -570,14 +531,11 @@ button {
 
 
 
-/* Main Content Styles */
 .main-content {
     margin-left: 248px;
-    /* padding: 20px; */
 }
 
 
-/* Table Styles */
 .appointment-table {
     width: 100%;
     border-collapse: collapse;
@@ -703,7 +661,7 @@ button {
 
 .stat-title {
     font-size: 14px;
-    color: var(--text-gray);
+
 }
 
 .info-icon {
@@ -745,7 +703,6 @@ button {
     height: 10px;
 }
 
-/* Search section styles */
 .leads-section {
     padding: 20px;
 }
@@ -757,13 +714,7 @@ button {
 }
 
 
-
-
-
-
-
 .leads-section {
-    /* background-color: #2a2a2a; */
     border-radius: 12px;
     padding: 24px;
 }
@@ -774,11 +725,7 @@ button {
     align-items: center;
     margin-bottom: 24px;
 
-
 }
-
-
-
 
 
 .leads-filters {
@@ -840,30 +787,25 @@ button {
 
 }
 
-/* Optional: Add margin between filters if needed */
 .filter-select+.filter-select {
     margin-left: 12px;
 }
 
 
-/* Table base styles */
 .leads-table {
     width: 100%;
     border-collapse: separate;
-    /* Changed to separate for border-radius to work */
     border-spacing: 0;
     padding: auto;
 
 }
 
-/* Table cell padding */
 .leads-table td,
 .leads-table th {
     padding: 16px;
 
 }
 
-/* Center align email column */
 .leads-table .email {
     text-align: center;
 }
@@ -872,7 +814,6 @@ button {
     color: #888;
 }
 
-/* Center align status column */
 .leads-table .status,
 .leads-table .status-booked {
 
@@ -881,7 +822,6 @@ button {
     font-weight: bold;
 }
 
-/* Center align view details link */
 .leads-table .view-details {
 
     display: flex;
@@ -895,15 +835,12 @@ button {
     cursor: pointer;
 }
 
-/* Row base styles and smooth transition */
 .leads-table tbody tr {
     position: relative;
     transition: all 0.3s ease;
 }
 
-/* Hover effect with border radius */
 .leads-table tbody tr:hover td {
-    /* background-color: rgba(29, 31, 34, 1); */
     cursor: pointer;
 }
 
@@ -917,15 +854,12 @@ button {
     border-bottom-right-radius: 10px;
 }
 
-/* Remove any gaps between cells */
 .leads-table td {
     background-clip: padding-box;
 }
 
-/* Status styling */
 .status-booked {
     color: rgba(117, 255, 189, 1);
-    /* Or your preferred color for booked status */
 }
 
 
@@ -959,33 +893,34 @@ button {
 }
 
 
-
 .view-details {
     color: #2196f3;
     text-decoration: none;
 }
 
-
-
-
-
-/* 
-/* Analytics Toggle */
 .analytics-toggle {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+}
+
+.analytics-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .toggle-switch {
     width: 44px;
     height: 24px;
-    background: var(--text-secondary);
+    background: #4d4d4d;
     border-radius: 12px;
     position: relative;
     cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
 }
 
 .toggle-switch::after {
@@ -1001,20 +936,174 @@ button {
 }
 
 .analytics-checkbox:checked+.toggle-switch {
-    background: var(--accent-blue);
+    background: #10b981;
 }
 
 .analytics-checkbox:checked+.toggle-switch::after {
     transform: translateX(20px);
 }
 
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #121416;
+    padding: 24px;
+    border-radius: 20px;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 1000px;
+
+    height: 85vh;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+}
 
 
+.modal-sidebar {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    background: #1D1F22;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-maincontent {
+    width: 65%;
+
+}
+
+.modal-profile-img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
 
 
+.appoinment-details {
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-top: 30px;
+}
 
 
+.contact-img {
 
+    height: 19px;
+    width: 19px;
+}
+
+.breif-appoinment-details {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+
+}
+
+.appointments-header-grid {
+
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.appoinment-header {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.appoinment-grid {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment-bar-sec {
+
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+
+    height: 240px;
+
+}
+
+.detail-item-modal {
+
+    background: #1d1f22;
+    width: 32%;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.close-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    background: var(--card-bg);
+    border-radius: 50%;
+    border: none;
+    padding: 4px 8px;
+}
+
+.analytics-checkbox:checked~.modal-overlay {
+    display: block;
+}
+
+.analytics-checkbox:checked~.modal {
+    display: block;
+}
 
 .location-apoinmentdetails {
     display: flex;
@@ -1023,7 +1112,6 @@ button {
 
     width: 30%;
 }
-
 
 .country {
     height: 30%;
@@ -1037,15 +1125,9 @@ button {
 .info {
     height: 10px;
     width: 10px;
-    /* margin: auto; */
-
 }
 
-
-/* Appointment Details Grid */
 .appointment-details {
-
-    /* border: 1px solid white; */
     display: grid;
     margin: 10px;
     grid-template-columns: repeat(2, 1fr);
@@ -1060,8 +1142,6 @@ button {
     height: 100%;
     height: 270px;
 }
-
-
 
 
 .chart-container {
@@ -1085,7 +1165,6 @@ button {
 
 .chart {
     position: relative;
-    /* height: 300px; */
     height: 100%;
     display: flex;
     padding-left: 28px;
@@ -1168,14 +1247,14 @@ button {
     border: 1px solid transparent;
     padding: 8px 8px;
     border-radius: 1.5rem;
-    padding :auto;
-  
-  }
-  
-  .show-more:hover {
+    padding: auto;
+
+}
+
+.show-more:hover {
     border-color: #1d1f22;
-  }
-  
+}
+
 
 
 [class^="details-row"] {
@@ -1195,15 +1274,6 @@ button {
 }
 
 
-
-
-
-.detail-item {
-    background: var(--primary-bg);
-    padding: 16px;
-    border-radius: 8px;
-}
-
 .detail-label {
     color: var(--text-secondary);
     font-size: 0.875rem;
@@ -1211,53 +1281,11 @@ button {
 }
 
 .details-content {
-    /* padding: 20px; */
     color: #fff;
     padding: 5px;
-    /* display: none; */
 }
 
 
-
-
-/* Analytics Toggle */
-.analytics-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 8px;
-    margin-bottom: 24px;
-}
-
-.toggle-switch {
-    width: 44px;
-    height: 24px;
-    background: #4d4d4d;
-    border-radius: 12px;
-    position: relative;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.toggle-switch::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border-radius: 50%;
-    top: 2px;
-    left: 2px;
-    transition: transform 0.3s;
-}
-
-.analytics-checkbox:checked+.toggle-switch {
-    background: #10b981;
-}
-
-.analytics-checkbox:checked+.toggle-switch::after {
-    transform: translateX(20px);
-}
 
 .expand {
     display: flex;
@@ -1310,6 +1338,8 @@ button {
     border-radius: 8px;
 }
 
+
+
 .detail-label {
     color: #8f9093;
     font-size: 14px;
@@ -1357,7 +1387,9 @@ button {
         gap: 12px;
     }
 
-
+    .analytics-toggle {
+        display: none;
+    }
 
     .viewer-info {
         flex-direction: column;
@@ -1412,9 +1444,6 @@ button {
 
 @media (max-width: 480px) {
 
-
-
-
     .stat-card {
         padding: 16px;
     }
@@ -1453,7 +1482,6 @@ button {
         justify-content: center;
     }
 
-    /* Hide icons on small screens */
     .add-icon,
     .lightning-icon,
     .layerpath-icon {
