@@ -28,7 +28,7 @@ Layerpath Analytics is a user-friendly platform designed to manage workspace act
 ---
 
 ### Screen 5: Profile and User Info with full overview of Analytics
-![Screen 5](https://github.com/user-attachments/assets/b6ce0f8d-6638-4b1b296f3e80)
+![Screen 5](https://github.com/user-attachments/assets/680c2da5-35df-4d4d-b8d1-0a5aca8285f9)
 
 ---
 
