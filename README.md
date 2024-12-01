@@ -12,7 +12,7 @@ Layerpath Analytics provides a user-friendly interface for managing and tracking
 
 ---
 
-### Screen 2: Workspace View
+### Screen 2: Demo CTA and Overall Analytics View
 ![Screen 2](https://github.com/user-attachments/assets/98db2801-80f9-4b00-9bd7-49a76f1c71cd)
 
 ---
