@@ -35,26 +35,66 @@ Layerpath Analytics is a user-friendly platform designed to manage workspace act
 ## Layout Structure
 
 ### 1. **Sidebar (Aside Section)**
+- Implemented using the `<aside>` semantic tag.
 - The sidebar is static for large screens and scrollable for overflow content.
 - On small screens:
   - The sidebar remains hidden initially.
   - Clicking the sidebar toggle button makes it visible.
 - Contains:
   - Logo
-  - Navigation menu items
+  - Workspace information
+  - Navigation menu items (wrapped in `<nav>` semantic tag)
   - Checklist for user tasks
-  - Contact section with demo button
+  - Contact section with sales information and a demo button
   - User profile information at the bottom
 
 ---
 
 ### 2. **Main Content Area**
+- Implemented using a combination of `<header>`, `<nav>`, `<main>`, and `<article>` semantic tags.
 - Includes:
-  - A header with navigation items.
-  - Detailed views of appointments and analytics data with toogle button for show analytics through modal
-  - A modal popup screen for:
+  - A `<header>` with navigation items.
+  - Sections for displaying:
+    - Appointment details.
+    - Analytics data (organized with `<article>` tags).
+  - A modal popup (using `<section>` or `<div>`) for:
     - Contact information.
     - Analytics summary for specific users or activities.
+
+---
+
+## Features
+1. **Responsive Sidebar**:
+   - Built using the `<aside>` semantic tag.
+   - Visible by default on larger screens.
+   - Toggles visibility on smaller screens for seamless navigation.
+
+2. **Main Content**:
+   - Displays critical workspace information.
+   - Organized into sections for:
+     - Appointments.
+     - Analytics.
+     - Descriptive summaries.
+
+3. **Modal Popups**:
+   - Show user contact details.
+   - Provide analytics insights.
+
+4. **Checklist**:
+   - Tracks user progress through tasks with a dynamic progress bar.
+
+5. **User Profile**:
+   - Displays profile image, name, and email for personalized experience.
+
+---
+
+## Semantic HTML Usage
+- **Semantic Tags**:
+  - `<aside>`: Used for the sidebar to separate it from the main content.
+  - `<header>`: Used for the header section containing navigation items.
+  - `<nav>`: Wraps the sidebar menu and top navigation links for better accessibility.
+  - `<article>`: Used for individual analytics or appointment details to give each piece of content a logical structure.
+  - `<section>`: Used in modals to provide clear divisions for user contact information and analytics.
 
 ---
 
