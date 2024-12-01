@@ -954,6 +954,7 @@ button {
     z-index: 99;
 }
 
+
 .modal {
     display: none;
     position: fixed;
@@ -965,9 +966,10 @@ button {
     border-radius: 20px;
     z-index: 100;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-width: 1000px;
-
+    width: 90%;
+    max-width: 1000px;
     height: 85vh;
+    overflow-y: auto;
 }
 
 .modal-content {
@@ -978,14 +980,12 @@ button {
     height: 100%;
 }
 
-
 .modal-sidebar {
     width: 32%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
-
 }
 
 .contact-info {
@@ -1007,7 +1007,6 @@ button {
 
 .modal-maincontent {
     width: 65%;
-
 }
 
 .modal-profile-img {
@@ -1016,33 +1015,26 @@ button {
     margin-bottom: 10px;
 }
 
-
 .appoinment-details {
-
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
     padding-top: 30px;
 }
 
-
 .contact-img {
-
     height: 19px;
     width: 19px;
 }
 
 .breif-appoinment-details {
-
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     gap: 15px;
-
 }
 
 .appointments-header-grid {
-
     border: 1px solid var(--border-color);
     border-radius: 10px;
     padding: 20px;
@@ -1052,38 +1044,131 @@ button {
 }
 
 .appoinment-header {
-
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .appoinment-grid {
-
     display: flex;
     justify-content: space-between;
 }
 
 .appointment-bar-sec {
-
     border: 1px solid var(--border-color);
     border-radius: 10px;
     padding: 20px;
     width: 100%;
-
     height: 240px;
-
 }
 
 .detail-item-modal {
-
     background: #1d1f22;
     width: 32%;
     padding: 16px;
     border-radius: 8px;
 }
 
+.chart-container-modal {
+    background: transparent;
+    border-radius: 12px;
+    padding: 4px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+
+    max-width: 800px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media screen and (max-width: 992px) {
+    .modal {
+        width: 95%;
+        height: 90vh;
+        padding: 16px;
+    }
+
+    .modal-content {
+        flex-direction: column;
+    }
+
+    .modal-sidebar {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .modal-maincontent {
+        width: 100%;
+    }
+
+    .appoinment-details {
+        flex-wrap: wrap;
+    }
+
+    .country {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal {
+        padding: 12px;
+    }
+
+    .appoinment-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .detail-item-modal {
+        width: 100%;
+    }
+
+    .country {
+        width: 100%;
+    }
+
+    .appointment-bar-sec {
+        height: auto;
+        min-height: 240px;
+    }
+
+    .appoinment-header {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .chart-container-modal {
+    height: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .modal {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .modal-profile-img {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chart {
+        overflow-x: auto;
+    }
+    
+    .chart-grid {
+        min-width: 500px;
+    }
+}
 .close-label {
     position: absolute;
     top: 10px;
@@ -1235,13 +1320,7 @@ button {
     width: fit-content;
 }
 
-.slides-label {
-    position: absolute;
-    bottom: -24px;
-    right: -60px;
-    color: #8F9093;
-    font-size: 14px;
-}
+
 
 .show-more {
     border: 1px solid transparent;
@@ -1387,9 +1466,9 @@ button {
         gap: 12px;
     }
 
-    .analytics-toggle {
+    /* .analytics-toggle {
         display: none;
-    }
+    } */
 
     .viewer-info {
         flex-direction: column;
